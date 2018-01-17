@@ -10,16 +10,8 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 
 ### Installation
 * Start up your terminal (or Command Prompt on Windows OS).
-* Ensure that you've `node` installed on your PC.
-* Clone the repository by entering the command `git clone https://github.com/andela-bolajide/UserManager` in the terminal.
-* Navigate to the project folder using `cd UserManager` on your terminal (or command prompt)
-* After cloning, install the application's dependencies with the command `npm install`.
-* Create a `.env` file in your root directory as described in `.env.sample` file. Variables such as DB_URL (which must be a mongoDB URL) and PORT are defined in the .env file and it is essential you create this file before running the application.
-```
-PORT=3000
-DB_URL='mongodb://john:doe@localhost:27017/databaseName'
-```
-* After this, you can then start the server with the command: `npm start`.
+* Ensure that you've `Docker` installed on your PC.
+* Run the startapp.sh script file to start the application, for linux users simply run `sh startapp.sh` in your terminal and type your password if prompted. For windows users install any application that includes a Bash shell and use the same command. Recommended application - [Cygwin](https://www.cygwin.com/)
 
 ### Testing
 To ensure that your installation is successful you'll need to run tests.
@@ -112,4 +104,4 @@ password: janedoe
 
 
 ### Author
-**Olajide Bolaji 'Nuel** - Software Developer at Andela
+**Ahmed Umar Bello** - For ALC Advanced Dev-Ops Program
